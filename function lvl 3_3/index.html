@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions 3_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main id="bg">
+        <form>
+            <input type="range" id="rangeRed" name="Red" min="0" max="255" value="0" step="1"
+                onchange="changeBackground(event)"> <br> <label for="rangeRed">Red</label>
+            <p id="pRed">0</p><br>
+            <input type="range" id="rangeGreen" name="Green" min="0" max="255" value="0" step="1"
+                onchange="changeBackground(event)"> <br><label for="rangeGreen">Green</label>
+            <p id="pGreen">0</p><br>
+            <input type="range" id="rangeBlue" name="Blue" min="0" max="255" value="0" step="1"
+                onchange="changeBackground(event)"> <br><label for="rangeBlue">Blue</label>
+            <p id="pGreen">0</p>
+        </form>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

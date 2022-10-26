@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'BodoniModa-Regular';
+    src: url("../fonts/BodoniModa_28pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'YuseiMagic-Regular';
+    src: url("../fonts/YuseiMagic-Regular.ttf");
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a0088;
+    color: #ffe98a;
+}
+
+main h1 {
+    color: #ffe98a;
+    padding-bottom: 80px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e61c5d;
+    height: 400px;
+    padding: 0 200px;
+    color: #ffe98a;
+    border-radius: 10px;
+}
+
+main p {
+    padding-top: 80px;
+}

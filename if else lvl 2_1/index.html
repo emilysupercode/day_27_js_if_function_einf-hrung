@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else 2_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <form>
+            <h1>a game of heights and ages</h1>
+            <label for="j_height">John's height: </label>
+            <input type="text" id="j_height" placeholder="John's height in cm"><br>
+            <label for="j_age">John's age</label>
+            <input type="text" id="j_age" placeholder="John's age in years">
+            <br>
+            <p>John's numeric value: <span class="red" id="johnValue"></span></p>
+            <br>
+            <label for="m_height">Meike's height: </label>
+            <input type="text" id="m_height" placeholder="Meike's height in cm"><br>
+            <label for="m_age">Meike's age</label>
+            <input type="text" id="m_age" placeholder="Meike's age in years">
+            <br>
+            <p>Meike's numeric value: <span class="red" id="meikeValue"></span></p>
+            <br>
+            <input type="button" value="play the numbers" onclick="playGame(event)">
+
+
+        </form>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

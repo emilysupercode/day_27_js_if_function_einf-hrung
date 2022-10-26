@@ -1,0 +1,11 @@
+main {
+    margin: 20px;
+}
+
+main input {
+    margin: 20px 0;
+}
+
+main form .red {
+    color: red;
+}

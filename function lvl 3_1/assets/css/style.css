@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3c3c3;
+}
+
+main h1 {
+    padding: 50px 0;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    gap: 50px;
+}
+
+main section div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+main section div:hover {
+    box-shadow: 0 30px 50px 15px grey;
+}
+
+.div1 {
+    background-image: linear-gradient(to top right, #47429d, #47429d 50%, #e27393 50%, #e27393);
+}
+
+.div2 {
+    background-image: linear-gradient(to top right, #283739, #283739 50%, #a9c52f 50%, #a9c52f);
+}
+
+.div3 {
+    background-image: linear-gradient(to top right, #012443, #012443 50%, #ff6b6b 50%, #ff6b6b);
+}
+
+.div4 {
+    background-image: linear-gradient(to top right, #654062, #654062 50%, #ff9d72 50%, #ff9d72);
+}

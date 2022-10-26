@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    background-color: white;
+    width: 500px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+form input[type=text] {
+    width: 300px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+form label {
+    padding: 20px;
+}
+
+form input[type=button] {
+    width: 300px;
+}
